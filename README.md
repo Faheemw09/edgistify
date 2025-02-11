@@ -5,6 +5,10 @@
 This backend powers an e-commerce platform, enabling user authentication, product management, cart functionality, and order placement. It is deployed at:
 
 Base URL: https://edgistify-bsgv.onrender.com
+Postman Collection
+
+A Postman collection is available for testing all API endpoints related to user registration, login, adding products to the cart, and placing orders.
+https://documenter.getpostman.com/view/24250536/2sAYXBFerM
 
 Tech Stack
 
@@ -128,9 +132,6 @@ Response:
 
 {"message":"Order placed successfully","order":{"userId":"67aae5c6f9fc846b20fd1353","items":[{"productId":"67ab4c117a70ca3858b5453b","quantity":1,"price":199.99,"_id":"67ab673ed4a9c1823a5293ff"}],"totalPrice":199.99,"shippingAddress":"123 Street, City, Country","paymentStatus":"Pending","orderStatus":"Pending","_id":"67ab673ed4a9c1823a5293fe","createdAt":"2025-02-11T15:05:34.081Z","updatedAt":"2025-02-11T15:05:34.081Z","__v":0}}
 
-Postman Collection
-
-A Postman collection is available for testing all API endpoints related to user registration, login, adding products to the cart, and placing orders.
 
 Deployment
 
