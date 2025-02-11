@@ -132,9 +132,20 @@ Request Body:
 
 Response:
 
-{"message":"Order placed successfully","order":{"userId":"67aae5c6f9fc846b20fd1353","items":[{"productId":"67ab4c117a70ca3858b5453b","quantity":1,"price":199.99,"_id":"67ab673ed4a9c1823a5293ff"}],"totalPrice":199.99,"shippingAddress":"123 Street, City, Country","paymentStatus":"Pending","orderStatus":"Pending","_id":"67ab673ed4a9c1823a5293fe","createdAt":"2025-02-11T15:05:34.081Z","updatedAt":"2025-02-11T15:05:34.081Z","__v":0}}
-
-
+{
+  "message": "Order placed successfully",
+  "order": {
+    "userId": "67aae5c6f9fc846b20fd1353",
+    "items": [
+      { "productId": "67ab4c117a70ca3858b5453b", "quantity": 1, "price": 199.99 }
+    ],
+    "totalPrice": 199.99,
+    "shippingAddress": "123 Street, City, Country",
+    "paymentStatus": "Pending",
+    "orderStatus": "Pending",
+    "createdAt": "2025-02-11T15:05:34.081Z"
+  }
+}
 Deployment
 
 
