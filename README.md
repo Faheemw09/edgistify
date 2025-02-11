@@ -5,6 +5,8 @@
 This backend powers an e-commerce platform, enabling user authentication, product management, cart functionality, and order placement. It is deployed at:
 
 Base URL: https://edgistify-bsgv.onrender.com
+
+
 Postman Collection
 
 A Postman collection is available for testing all API endpoints related to user registration, login, adding products to the cart, and placing orders.
